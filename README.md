@@ -13,17 +13,43 @@ Github를 이용해 회원가입 되어있는 사람과 아이디를 연동하�
 JAVA(언어), JAVA Socket(TPC/IP), Selenium(깃 크롤링을 위해), Swing(GUI), mySql(DB)<br><br>
 
 DB구조<br>
-All_Member<br>
-&nbsp &nbsp id(auto_increment) mem_ID(아이디) mem_PW(비밀번호) name(이름) github_ID(깃허브 아이디) status(접속상태)<br>
-Chat_Info<br>
-&nbsp &nbsp Room(방 번호) Description(대화내용) Sender(발신자) Time(시간, 초까지) Day(년,월,일)<br>
-Github<br>
-&nbsp &nbsp git_id(깃 아이디) commit(커밋 수) repo_id(대화방 id)<br>
-mem_friend_list<br>
-&nbsp &nbsp user_ID(유저 아이디) friend_ID(유저의 친구 아이디)<br>
-Room<br>
-&nbsp &nbsp roomNum(방 번호 auto_inclement) title(방 제목) repository(깃허브 레파지토리 주소)<br>
-Room_Member<br>
-&nbsp &nbsp memID(userID) roomNum(참가중인 방 id)<br><br>
+<ul>All_Member
+  <li>id(auto_increment)</li>
+  <li>mem_ID(아이디)</li>
+  <li>mem_PW(비밀번호)</li>
+  <li>name(이름)</li>
+  <li>github_ID(깃허브 아이디)</li>
+  <li>status(접속상태)</li>
+</ul>
+
+<ul>Chat_Info
+  <li>Room(방 번호)</li>
+  <li>Description(대화내용)</li>
+  <li>Sender(발신자)</li>
+  <li>Time(시간, 초까지)</li>
+  <li>Day(년,월,일)</li>
+</ul>
+
+<ul>Github
+  <li>git_id(깃 아이디)</li>
+  <li>commit(커밋 수)</li>
+  <li>repo_id(대화방 id)</li>
+</ul>
+
+<ul>mem_friend_list
+  <li>user_ID(유저 아이디)</li>
+  <li>friend_ID(유저의 친구 아이디)</li>
+</ul>
+
+<ul>Room
+  <li>roomNum(방 번호 auto_inclement)</li>
+  <li>title(방 제목)</li>
+  <li>repository(깃허브 레파지토리 주소)</li>
+</ul>
+
+<ul>Room_Member
+  <li>memID(userID)</li>
+  <li>roomNum(참가중인 방 id)</li>
+</ul>
 
 README FILE made by.오선식
