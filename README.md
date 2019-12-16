@@ -14,16 +14,16 @@ JAVA(언어), JAVA Socket(TPC/IP), Selenium(깃 크롤링을 위해), Swing(GUI)
 
 DB구조<br>
 All_Member<br>
-&nbsp&nbspid(auto_increment) mem_ID(아이디) mem_PW(비밀번호) name(이름) github_ID(깃허브 아이디) status(접속상태)<br>
+&nbsp &nbsp id(auto_increment) mem_ID(아이디) mem_PW(비밀번호) name(이름) github_ID(깃허브 아이디) status(접속상태)<br>
 Chat_Info<br>
-&nbsp&nbspRoom(방 번호) Description(대화내용) Sender(발신자) Time(시간, 초까지) Day(년,월,일)<br>
+&nbsp &nbsp Room(방 번호) Description(대화내용) Sender(발신자) Time(시간, 초까지) Day(년,월,일)<br>
 Github<br>
-&nbsp&nbspgit_id(깃 아이디) commit(커밋 수) repo_id(대화방 id)<br>
+&nbsp &nbsp git_id(깃 아이디) commit(커밋 수) repo_id(대화방 id)<br>
 mem_friend_list<br>
-&nbsp&nbspuser_ID(유저 아이디) friend_ID(유저의 친구 아이디)<br>
+&nbsp &nbsp user_ID(유저 아이디) friend_ID(유저의 친구 아이디)<br>
 Room<br>
-&nbsp&nbsproomNum(방 번호 auto_inclement) title(방 제목) repository(깃허브 레파지토리 주소)<br>
+&nbsp &nbsp roomNum(방 번호 auto_inclement) title(방 제목) repository(깃허브 레파지토리 주소)<br>
 Room_Member<br>
-&nbsp&nbspmemID(userID) roomNum(참가중인 방 id)<br><br>
+&nbsp &nbsp memID(userID) roomNum(참가중인 방 id)<br><br>
 
 README FILE made by.오선식
