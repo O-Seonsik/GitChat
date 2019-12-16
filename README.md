@@ -52,4 +52,8 @@ DB구조<br>
   <li>roomNum(참가중인 방 id)</li>
 </ul>
 
+Usecase Diagram<br>
+
+![Image description](./GitChat_Usecase.png)
+
 README FILE made by.오선식
